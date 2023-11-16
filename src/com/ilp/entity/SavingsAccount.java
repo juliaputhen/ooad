@@ -10,12 +10,10 @@ public class SavingsAccount extends Product {
 		super(productCode, productName, servicesList);
 		this.balance = balance;
 	}
-
-	public double getBalance() {
+private double getBalance() {
 		return balance;
 	}
-
-	public void setBalance(double balance) {
+private void setBalance(double balance) {
 		this.balance = balance;
 	}
 }

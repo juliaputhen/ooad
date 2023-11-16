@@ -1,10 +1,11 @@
 package com.ilp.entity;
+import java.util.Set;
 import java.util.ArrayList;
 
 public class Product {
 	private String productCode;
 	private String productName;
-	private ArrayList<Services> servicesList;
+	private Set<Services <Services> >servicesList;
 	
 	
 	public Product(String productCode, String productName, ArrayList<Services> servicesList) {
@@ -13,22 +14,22 @@ public class Product {
 		this.productName = productName;
 		this.servicesList = servicesList;
 	}
-	public String getProductCode() {
+private String getProductCode() {
 		return productCode;
 	}
-	public void setProductCode(String productCode) {
+private void setProductCode(String productCode) {
 		this.productCode = productCode;
 	}
-	public String getProductName() {
+private String getProductName() {
 		return productName;
 	}
-	public void setProductName(String productName) {
+private void setProductName(String productName) {
 		this.productName = productName;
 	}
-	public ArrayList<Services> getServicesList() {
+	public Set<Services <Services> >getServicesList() {
 		return servicesList;
 	}
-	public void setServicesList(ArrayList<Services> servicesList) {
+	public void setServicesList(Set<Services <Services> >servicesList) {
 		this.servicesList = servicesList;
 	}
 	
