@@ -6,10 +6,10 @@ import com.ilp.entity.Account;
 import com.ilp.entity.Customer;
 import com.ilp.entity.Product;
 import com.ilp.entity.Services;
-import com.ilp.service.AccountService;
+import AccountService;
 import com.ilp.service.CustomerConfiguration;
 import com.ilp.service.ProductConfiguration;
-import com.ilp.service.ServicesService;
+import ServicesService;
 
 public class CustomerUtility {
 	
