@@ -10,10 +10,12 @@ public class LoanAccount extends Product {
 		super(productCode, productName, servicesList);
 		this.checkDeposit = checkDeposit;
 	}
-private double getCheckDeposit() {
+
+	public double getCheckDeposit() {
 		return checkDeposit;
 	}
-private void setCheckDeposit(double checkDeposit) {
+
+	public void setCheckDeposit(double checkDeposit) {
 		this.checkDeposit = checkDeposit;
 	}
 }

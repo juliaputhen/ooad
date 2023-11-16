@@ -4,7 +4,11 @@
     <eAnnotations xmi:id="_6l_RMIRnEe66CcYpZKSvRQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_6l_RMYRnEe66CcYpZKSvRQ" source="codegen">
         <details xmi:id="_6mAfUIRnEe66CcYpZKSvRQ" key="codegenDirectory" value="/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src"/>
+<<<<<<< HEAD
         <details xmi:id="_60dyEIRnEe66CcYpZKSvRQ" key="AssociatedSourceCode" value="/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Account.java;3981830/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/CurrentAccount.java;4015474616/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Customer.java;71402197/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/LoanAccount.java;981743521/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Product.java;1314664325/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/SavingsAccount.java;1479014859/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Services.java;2364341976/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/service/CustomerConfiguration.java;359732616/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/service/ProductConfiguration.java;915553083/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/utility/CustomerUtility.java;2447338644/1;"/>
+=======
+        <details xmi:id="_60dyEIRnEe66CcYpZKSvRQ" key="AssociatedSourceCode" value="/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Account.java;3981830/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/CurrentAccount.java;4015474616/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Customer.java;3783308504/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/LoanAccount.java;981743521/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Product.java;3711328766/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/SavingsAccount.java;1479014859/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/entity/Services.java;1716281085/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/service/CustomerConfiguration.java;359732616/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/service/ProductConfiguration.java;915553083/1;/ILP_OOAD_151123_Day3_ArrayList_IHIS-A_Assignement/src/com/ilp/utility/CustomerUtility.java;2447338644/1;"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_6r3PsIRnEe66CcYpZKSvRQ">
@@ -106,10 +110,17 @@
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_6r8vQIRnEe66CcYpZKSvRQ" name="Customer">
+<<<<<<< HEAD
             <ownedAttribute xmi:id="_6vOFsIRnEe66CcYpZKSvRQ" name="customerCode" visibility="public">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_6vOFsYRnEe66CcYpZKSvRQ" name="customerName" visibility="public">
+=======
+            <ownedAttribute xmi:id="_6vOFsIRnEe66CcYpZKSvRQ" name="customerCode" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_6vOFsYRnEe66CcYpZKSvRQ" name="customerName" visibility="private">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_6vOswIRnEe66CcYpZKSvRQ" name="accountList" type="_6r1agIRnEe66CcYpZKSvRQ" association="_6vo8cIRnEe66CcYpZKSvRQ">
@@ -124,9 +135,13 @@
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <ownedParameter xmi:id="_6vekY4RnEe66CcYpZKSvRQ" name="accountList" type="_6uZmUIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
               <ownedParameter xmi:id="_6vekZIRnEe66CcYpZKSvRQ" type="_6r8vQIRnEe66CcYpZKSvRQ" direction="return">
                 <name xsi:nil="true"/>
               </ownedParameter>
+=======
+              <ownedParameter xmi:id="_6vekZIRnEe66CcYpZKSvRQ" type="_6r8vQIRnEe66CcYpZKSvRQ" direction="return"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <language>java</language>
               <body>this.customerCode = customerCode;&#xD;
 		this.customerName = customerName;&#xD;
@@ -187,10 +202,17 @@
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_6sCO0IRnEe66CcYpZKSvRQ" name="Product">
+<<<<<<< HEAD
             <ownedAttribute xmi:id="_6vRwEIRnEe66CcYpZKSvRQ" name="productCode" visibility="public">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_6vRwEYRnEe66CcYpZKSvRQ" name="productName" visibility="public">
+=======
+            <ownedAttribute xmi:id="_6vRwEIRnEe66CcYpZKSvRQ" name="productCode" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_6vRwEYRnEe66CcYpZKSvRQ" name="productName" visibility="private">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_6vSXIIRnEe66CcYpZKSvRQ" name="servicesList" type="_6sNN8IRnEe66CcYpZKSvRQ" association="_6vqKkIRnEe66CcYpZKSvRQ">
@@ -205,9 +227,13 @@
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <ownedParameter xmi:id="_6vfyg4RnEe66CcYpZKSvRQ" name="servicesList" type="_6uZmUIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
               <ownedParameter xmi:id="_6vfyhIRnEe66CcYpZKSvRQ" type="_6sCO0IRnEe66CcYpZKSvRQ" direction="return">
                 <name xsi:nil="true"/>
               </ownedParameter>
+=======
+              <ownedParameter xmi:id="_6vfyhIRnEe66CcYpZKSvRQ" type="_6sCO0IRnEe66CcYpZKSvRQ" direction="return"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <language>java</language>
               <body>super();&#xD;
 		this.productCode = productCode;&#xD;
@@ -269,6 +295,7 @@
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_6sNN8IRnEe66CcYpZKSvRQ" name="Services">
+<<<<<<< HEAD
             <ownedAttribute xmi:id="_6vWBgIRnEe66CcYpZKSvRQ" name="serviceCode" visibility="public">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
@@ -276,6 +303,15 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_6vWokIRnEe66CcYpZKSvRQ" name="rate" visibility="public">
+=======
+            <ownedAttribute xmi:id="_6vWBgIRnEe66CcYpZKSvRQ" name="serviceCode" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_6vWBgYRnEe66CcYpZKSvRQ" name="serviceName" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_6vWokIRnEe66CcYpZKSvRQ" name="rate" visibility="private">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
             </ownedAttribute>
             <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6vhAoIRnEe66CcYpZKSvRQ" name="Services" specification="_6sOcEIRnEe66CcYpZKSvRQ">
@@ -288,9 +324,13 @@
               <ownedParameter xmi:id="_6vhAo4RnEe66CcYpZKSvRQ" name="rate">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
               </ownedParameter>
+<<<<<<< HEAD
               <ownedParameter xmi:id="_6vhApIRnEe66CcYpZKSvRQ" type="_6sNN8IRnEe66CcYpZKSvRQ" direction="return">
                 <name xsi:nil="true"/>
               </ownedParameter>
+=======
+              <ownedParameter xmi:id="_6vhApIRnEe66CcYpZKSvRQ" type="_6sNN8IRnEe66CcYpZKSvRQ" direction="return"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
               <language>java</language>
               <body>super();&#xD;
 		this.serviceCode = serviceCode;&#xD;
@@ -839,7 +879,10 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_6rRZ0YRnEe66CcYpZKSvRQ" name="util">
         <packagedElement xmi:type="uml:Class" xmi:id="_6uZmUIRnEe66CcYpZKSvRQ" name="ArrayList"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_6uiJMIRnEe66CcYpZKSvRQ" name="Scanner"/>
+<<<<<<< HEAD
         <packagedElement xmi:type="uml:Interface" xmi:id="_-YlP4ISlEe66CcYpZKSvRQ" name="Set"/>
+=======
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_6mBtcIRnEe66CcYpZKSvRQ">
@@ -880,5 +923,8 @@
   <UMLLabProfile:Reference xmi:id="_6vqxoIRnEe66CcYpZKSvRQ" base_Element="_6vqKkIRnEe66CcYpZKSvRQ"/>
   <UMLLabProfile:Reference xmi:id="_6vrYsIRnEe66CcYpZKSvRQ" base_Element="_6vqxoYRnEe66CcYpZKSvRQ"/>
   <UMLLabProfile:Reference xmi:id="_6vr_wIRnEe66CcYpZKSvRQ" base_Element="_6vrYsYRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
   <UMLLabProfile:Reference xmi:id="_-Yl28ISlEe66CcYpZKSvRQ" base_Element="_-YlP4ISlEe66CcYpZKSvRQ"/>
+=======
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
 </xmi:XMI>

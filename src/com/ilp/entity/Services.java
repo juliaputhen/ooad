@@ -13,22 +13,23 @@ public class Services {
 		this.serviceName = serviceName;
 		this.rate = rate;
 	}
-public String getServiceCode() {
+	
+	public String getServiceCode() {
 		return serviceCode;
 	}
-public void setServiceCode(String serviceCode) {
+	public void setServiceCode(String serviceCode) {
 		this.serviceCode = serviceCode;
 	}
-public String getServiceName() {
+	public String getServiceName() {
 		return serviceName;
 	}
-public void setServiceName(String serviceName) {
+	public void setServiceName(String serviceName) {
 		this.serviceName = serviceName;
 	}
-public double getRate() {
+	public double getRate() {
 		return rate;
 	}
-public void setRate(double rate) {
+	public void setRate(double rate) {
 		this.rate = rate;
 	}
 	

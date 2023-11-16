@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6fkgIIRnEe66CcYpZKSvRQ">
   <eAnnotations xmi:id="_KlkKIISmEe66CcYpZKSvRQ" source="http://ns.yatta.de/umllab">
     <contents xsi:type="ecore:EAnnotation" xmi:id="_KlkxMISmEe66CcYpZKSvRQ" source="dangling-refs">
@@ -108,6 +109,9 @@
       </contents>
     </contents>
   </eAnnotations>
+=======
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6fkgIIRnEe66CcYpZKSvRQ">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
   <modelElement href="model.uml#_6rL6QIRnEe66CcYpZKSvRQ"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9rebcIRnEe66CcYpZKSvRQ" sourceAnchor="0.0,69.0" targetAnchor="645.0,80.0" target="_9rVRgIRnEe66CcYpZKSvRQ" source="_9rfCgIRnEe66CcYpZKSvRQ">
     <modelElement href="model.uml#_6vqKkIRnEe66CcYpZKSvRQ"/>
@@ -224,6 +228,7 @@
       <cardinality xmi:id="_TiIls4RoEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
+<<<<<<< HEAD
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_I5OkIISmEe66CcYpZKSvRQ" modelElement="_KlkxMYSmEe66CcYpZKSvRQ" target="_9sPQcoRnEe66CcYpZKSvRQ" source="_9rfCgIRnEe66CcYpZKSvRQ">
     <nameVisual xmi:id="_I5OkIYSmEe66CcYpZKSvRQ" text=""/>
     <sourceRole xmi:id="_I5OkIoSmEe66CcYpZKSvRQ" modelElement="__44ioIRxEe66CcYpZKSvRQ" aggregationKind="NONE" name="product_1">
@@ -302,6 +307,9 @@
     </targetRole>
   </edges>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9sPQcoRnEe66CcYpZKSvRQ" name="Account" associationsIn="_9sM0MIRnEe66CcYpZKSvRQ _9ris4IRnEe66CcYpZKSvRQ _I5OkIISmEe66CcYpZKSvRQ _I5dNoISmEe66CcYpZKSvRQ _I5wIkISmEe66CcYpZKSvRQ _I6BOUISmEe66CcYpZKSvRQ _I6VXYISmEe66CcYpZKSvRQ _I6oSUISmEe66CcYpZKSvRQ _I7_kQISmEe66CcYpZKSvRQ">
+=======
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9sPQcoRnEe66CcYpZKSvRQ" name="Account" associationsIn="_9sM0MIRnEe66CcYpZKSvRQ _9ris4IRnEe66CcYpZKSvRQ">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
     <modelElement href="model.uml#_6r1agIRnEe66CcYpZKSvRQ"/>
     <visualProperties xmi:id="_9sPQc4RnEe66CcYpZKSvRQ" position="-496.0,254.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_9sPQdIRnEe66CcYpZKSvRQ" label="+"/>
@@ -401,13 +409,21 @@
       </parameters>
     </operations>
   </nodes>
+<<<<<<< HEAD
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9rfCgIRnEe66CcYpZKSvRQ" name="Product" associationsOut="_9rebcIRnEe66CcYpZKSvRQ _9sM0MIRnEe66CcYpZKSvRQ _I5OkIISmEe66CcYpZKSvRQ _I5dNoISmEe66CcYpZKSvRQ _I5wIkISmEe66CcYpZKSvRQ _I6BOUISmEe66CcYpZKSvRQ _I6VXYISmEe66CcYpZKSvRQ _I6oSUISmEe66CcYpZKSvRQ _I7_kQISmEe66CcYpZKSvRQ" subclassedBy="_9rqBoIRnEe66CcYpZKSvRQ _9sGtkIRnEe66CcYpZKSvRQ _9sehAIRnEe66CcYpZKSvRQ">
+=======
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9rfCgIRnEe66CcYpZKSvRQ" name="Product" associationsOut="_9rebcIRnEe66CcYpZKSvRQ _9sM0MIRnEe66CcYpZKSvRQ" subclassedBy="_9rqBoIRnEe66CcYpZKSvRQ _9sGtkIRnEe66CcYpZKSvRQ _9sehAIRnEe66CcYpZKSvRQ">
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
     <modelElement href="model.uml#_6sCO0IRnEe66CcYpZKSvRQ"/>
     <visualProperties xmi:id="_9rfCgYRnEe66CcYpZKSvRQ" position="-538.0,556.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_9rfCgoRnEe66CcYpZKSvRQ" label="+"/>
     <attributes xmi:id="_9rfCg4RnEe66CcYpZKSvRQ" name="productCode">
       <modelElement href="model.uml#_6vRwEIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rfChIRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rfChIRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rfChYRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rfChoRnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -415,7 +431,11 @@
     </attributes>
     <attributes xmi:id="_9rfCh4RnEe66CcYpZKSvRQ" name="productName">
       <modelElement href="model.uml#_6vRwEYRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rfCiIRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rfCiIRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rfCiYRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rfCioRnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -472,7 +492,11 @@
     <visibility xmi:id="_9rlwM4RnEe66CcYpZKSvRQ" label="+"/>
     <attributes xmi:id="_9rlwNIRnEe66CcYpZKSvRQ" name="customerCode">
       <modelElement href="model.uml#_6vOFsIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rlwNYRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rlwNYRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rlwNoRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rlwN4RnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -480,7 +504,11 @@
     </attributes>
     <attributes xmi:id="_9rlwOIRnEe66CcYpZKSvRQ" name="customerName">
       <modelElement href="model.uml#_6vOFsYRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rlwOYRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rlwOYRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rlwOoRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rlwO4RnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -537,7 +565,11 @@
     <visibility xmi:id="_9rVRgoRnEe66CcYpZKSvRQ" label="+"/>
     <attributes xmi:id="_9rVRg4RnEe66CcYpZKSvRQ" name="serviceCode">
       <modelElement href="model.uml#_6vWBgIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rVRhIRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rVRhIRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rVRhYRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rVRhoRnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -545,7 +577,11 @@
     </attributes>
     <attributes xmi:id="_9rVRh4RnEe66CcYpZKSvRQ" name="serviceName">
       <modelElement href="model.uml#_6vWBgYRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rVRiIRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rVRiIRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rVRiYRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rVRioRnEe66CcYpZKSvRQ" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -553,7 +589,11 @@
     </attributes>
     <attributes xmi:id="_9rVRi4RnEe66CcYpZKSvRQ" name="rate">
       <modelElement href="model.uml#_6vWokIRnEe66CcYpZKSvRQ"/>
+<<<<<<< HEAD
       <visibility xmi:id="_9rVRjIRnEe66CcYpZKSvRQ" label="+"/>
+=======
+      <visibility xmi:id="_9rVRjIRnEe66CcYpZKSvRQ" label="-"/>
+>>>>>>> 01690ee3b60cb4f119c79d244695cc1862e60b70
       <cardinality xmi:id="_9rVRjYRnEe66CcYpZKSvRQ" label="1" max="1" min="1"/>
       <type xmi:id="_9rVRjoRnEe66CcYpZKSvRQ" name="double">
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
